@@ -8,7 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./assets/javascript/gifs.js"></script>
 </head>
@@ -23,6 +23,15 @@
     <div class="container">
         <div class="row mt-4">
             <div class="col-sm-9 d-sm-flex flex-sm-wrap justify-content-sm-around" id="gif-container">
+            </div>
+            <div class="col-sm-3">
+                <form>
+                    <div class="form-group">
+                        <label for="add-button">Check out some other dog breeds!</label>
+                        <input type="text" class="form-control" id="add-button" placeholder="Enter a breed">
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="submit-button">Submit</button>
+                </form>
             </div>
         </div>
     </div>

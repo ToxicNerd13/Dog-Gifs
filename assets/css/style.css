@@ -1,6 +1,9 @@
-* {
-    box-sizing: border-box;
+.dog-button {
+    background: rgb(153, 2, 2);
+    color: black;
+    font-weight: bold;
 }
-p {
-    text-align: center;
+#submit-button {
+    background: black;
+    color: white;
 }
